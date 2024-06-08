@@ -14,16 +14,21 @@
         <p>You have only 10 attempt to guess the right number</p>
         
         <form action="">
+            <legend>
             <label for="guessField" id="guess"><h1> GUESS THE NUMBER </h1></label>
             <input type="number" class="guessField" id="guessField">
             <input type="submit" id="subt" value="submit guess" class="guessSubmit">
+        </legend>
         </form>
 
         <div class="resultParas">
-            <p>Previous Guess <span class="guesses"></span></p>
+            <p>Previous Guess : <span class="guesses"></span></p>
             <p>Guess remaining : <span class="lastResult"></span></p>
         </div>
 
     </div>
+
+    <script src="guessTheNumber.js"></script>
+
 </body>
 </html>
