@@ -1,14 +1,19 @@
+*{
+    margin: 0px;
+    background-color: black;
+    color: white;
+}
 .head{
     width: 100%;
     height: 5rem;
-    border: 1px solid black;
+    border: 1px solid white;
     align-items: center;
     text-align: center;
 }
 .navBar{
     width: 100%;
     height: 3rem;
-    border: 1px solid black;
+    border: 1px solid white;
     margin-top: 5px;
     display: flex;
     justify-content: space-evenly;
@@ -17,43 +22,22 @@
 }
 .navBar a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
-.mainContent{
+#Input{
+    margin: 5px 5px 5px 20px;
+    background-color: #202020;
+    color: whitesmoke;
+}
+#addToList{
+    width: 20rem;
+    height: 2rem;
+    border-color: white;
+    background-color: #202020;
+    margin: 0px 0px 5px 15px;
+}
+#list{
     width: 100%;
-    height: 30rem;
-    border: 1px solid black;
-    margin-top: 5px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-.toDoList{
-    width: 49%;
-    height: 28rem;
-    border: 1px solid black;
-}
-.addORdelet{
-    width: 49%;
-    height: 28rem;
-}
-.box{
-    width: 100%;
-    height: 13rem;
-    border: 1px solid black;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-#Items{
-    width: 100%;
-    height: 10rem;
-    border: 1px solid black;
-    margin-bottom: 0px;
-}
-#addList{
-    margin: 1rem 0px 5px 0px;
-}
-#deletedItem{
-    margin: 5px 0px 1rem 0px;
+    height: 20rem;
+    border: 1px solid white;
 }
